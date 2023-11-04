@@ -3,9 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <div class="grid-container">
+      
+        <nav class="section-1">
+            <div id="logo"><img src="./images/Spotify logo.png" alt=""></div>
+
+            <div id="home"><svg xmlns="http://www.w3.org/2000/svg" width="31" height="34" viewBox="0 0 31 34" fill="none">
+                <g clip-path="url(#clip0_306_615)">
+                  <path d="M15.5849 19.6659C14.6021 19.6659 13.6596 20.0888 12.9646 20.8417C12.2697 21.5946 11.8793 22.6157 11.8793 23.6804V33.0822H19.2906V23.6804C19.2906 22.6157 18.9002 21.5946 18.2052 20.8417C17.5103 20.0888 16.5677 19.6659 15.5849 19.6659Z" fill="white"/>
+                  <path d="M17.2376 2.04697C16.784 1.60463 16.1953 1.35986 15.5849 1.35986C14.9746 1.35986 14.3858 1.60463 13.9322 2.04697L0.762268 14.8879V28.8047C0.762268 29.9404 1.17871 31.0296 1.91999 31.8326C2.66126 32.6357 3.66665 33.0868 4.71497 33.0868H9.40881V23.6809C9.40881 21.9064 10.0595 20.2046 11.2177 18.9498C12.376 17.6951 13.9469 16.9902 15.5849 16.9902C17.2229 16.9902 18.7938 17.6951 19.9521 18.9498C21.1103 20.2046 21.761 21.9064 21.761 23.6809V33.0828H26.4548C27.5032 33.0828 28.5086 32.6317 29.2498 31.8286C29.9911 31.0256 30.4076 29.9364 30.4076 28.8007V14.8839L17.2376 2.04697Z" fill="white"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_306_615">
+                    <rect width="29.6453" height="32.1157" fill="white" transform="translate(0.762268 0.932129)"/>
+                  </clipPath>
+                </defs>
+              </svg>
+                <a href="">Home</a></div>
+            
+            <div><img src="./images/search-icon.svg" alt="search"><a href="">Search</a></div>
+          
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="29" viewBox="0 0 28 29" fill="none">
+                 <rect x="-0.00250244" y="0.15979" width="1.23522" height="28.4101" fill="white"/>
+                 <rect x="8.64404" y="0.15979" width="1.23522" height="28.4101" fill="white"/>
+                 <rect x="14.8201" y="0.655029" width="1.23522" height="29.3017" transform="rotate(-23.634 14.8201 0.655029)" fill="white"/>
+              </svg>
+              <a href="">Library</a></div>
+
+              <div class="list-to-do" id="list-to">
+             <div class="box" id="create-list">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                <path d="M16.8201 14.0944V7.91833H14.3497V14.0944H8.17358V16.5649H14.3497V22.741H16.8201V16.5649H22.9962V14.0944H16.8201Z" fill="black"/>
+              </svg>
+             </div>
+             <div><a href="">Create Playlist</a></div>
+          </div>
+          <div class="list-to-do">
+            <div class="box" id="heart-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <g clip-path="url(#clip0_306_628)">
+                  <path d="M8.23299 1.31335C7.72879 1.3212 7.23557 1.46195 6.80317 1.72139C6.37076 1.98084 6.01447 2.34979 5.77027 2.79099C5.52608 2.34979 5.16979 1.98084 4.73738 1.72139C4.30497 1.46195 3.81176 1.3212 3.30755 1.31335C2.50378 1.34828 1.7465 1.69989 1.20116 2.29138C0.655812 2.88287 0.366729 3.66616 0.397065 4.47011C0.397065 7.50374 5.3028 11.0075 5.51146 11.1562L5.77027 11.3393L6.02908 11.1562C6.23774 11.0084 11.1435 7.50374 11.1435 4.47011C11.1738 3.66616 10.8847 2.88287 10.3394 2.29138C9.79404 1.69989 9.03676 1.34828 8.23299 1.31335Z" fill="white"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_306_628">
+                    <path d="M0.396973 1.90271C0.396973 1.35042 0.844688 0.90271 1.39697 0.90271H10.1434C10.6957 0.90271 11.1434 1.35043 11.1434 1.90271V10.6491C11.1434 11.2014 10.6957 11.6491 10.1434 11.6491H1.39697C0.844687 11.6491 0.396973 11.2014 0.396973 10.6491V1.90271Z" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div><a href="">Liked Songs</a></div>
+         </div>
+         <div class="list-to-do" >
+          <div class="box" id="episode-list">
+            <img src="./images/Group.svg" alt="episode" style="width: 29.249px; height: 26.43px; padding-left: 2px;
+            ">
+          </div>
+          <div><a href="">Your Episodes</a></div>
+       </div>
+       <div class="a">FAV</div>
+       <div class="a">Daily Mix 1</div>
+       <div class="a">Dance / Electronix Mix</div>
+       <div class="a">Discover Weekly</div>
+       <div class="a">Malayalam</div>
+       <div class="a">EDM / Popular</div>
+       <!-- install-app -->
+       <div id="installed-app">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+            <path d="M21.0553 14.8841L14.8792 21.0602L8.70313 14.8841M14.8792 7.47273V19.8249V7.47273ZM14.8792 1.29663C22.3832 1.29663 28.4667 7.38009 28.4667 14.8841C28.4667 22.388 22.3832 28.4715 14.8792 28.4715C7.37527 28.4715 1.29181 22.388 1.29181 14.8841C1.29181 7.38009 7.37527 1.29663 14.8792 1.29663Z" stroke="white" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="a">Install App</div>
+       </div>
+          </nav>
+       <!-- section -2 start -->
+        <section class="section-2 ">
+
+          <section id="btn-section">
+
+            <div id="btn">
+            <button class="btn-lr"><img src="./images/fi-rr-angle-small-left.svg" alt="left-arrow"></button>
+            <button class="btn-lr"><img src="./images/fi-rr-angle-small-right.svg" alt="right-arrow"></button>
+          </div>
+               <div id="angle">
+                <div><img src="./images/Ellipse 3.svg" alt="angel"></div>
+                <p>Angel</p>
+                <div><svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24" fill="none">
+                  <path d="M4.37524 9H16.6252L11.1189 15.293C10.9548 15.4805 10.7323 15.5858 10.5002 15.5858C10.2682 15.5858 10.0457 15.4805 9.88162 15.293L4.37524 9Z" fill="white"/>
+                </svg></div>
+               </div>
+          </section>
+            <div id="morning">
+            <h2>Good morning</h2>
+          </div>
+            <div class="category-container">
+                <div class="playlist">
+                  <div id="heart"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 29 29" fill="none">
+                    <g clip-path="url(#clip0_306_568)">
+                      <path d="M21.1461 1.10828C19.7854 1.12944 18.4545 1.50927 17.2876 2.2094C16.1207 2.90953 15.1592 3.90517 14.5002 5.09578C13.8413 3.90517 12.8798 2.90953 11.7129 2.2094C10.546 1.50927 9.21504 1.12944 7.8544 1.10828C5.68537 1.20252 3.6418 2.15137 2.17014 3.74756C0.698481 5.34374 -0.0816308 7.45749 0.000234432 9.62703C0.000234432 17.8135 13.2387 27.2687 13.8018 27.6699L14.5002 28.1641L15.1987 27.6699C15.7617 27.2711 29.0002 17.8135 29.0002 9.62703C29.0821 7.45749 28.302 5.34374 26.8303 3.74756C25.3587 2.15137 23.3151 1.20252 21.1461 1.10828Z" fill="white"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_306_568">
+                        <rect width="29" height="29" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg></div>
+                  <p>Liked Songs</p></div>
+
+                <div class="playlist">
+                  <div id="net-playlist" class="img-size">
+                    <img src="./images/Rectangle 2.png" alt="playlist">
+                  </div>
+                  <p>Neffex Playlist</p>
+                </div>
+
+                <div class="playlist">
+                  <div id="net-playlist" class="img-size">
+                    <img src="./images/Rectangle-3.jpg" alt="playlist">
+                  </div>
+                  <p>K/ DA</p>
+                </div>
+
+                <div class="playlist">
+                  <div id="net-playlist" class="img-size">
+                    <img src="./images/Rectangle-4.png" alt="playlist">
+                  </div>
+                  <p>Dance / Electronic Mix</p>
+                </div>
+            </div> 
+
+                 <!-- Shows you might like -->
+             <section id="show-reference">
+            <div><h3>Shows you might like</h3></div>
+            <p>See All</p>
+          </section>
+            <!-- show section -->
+            <section id="show-section">
+
+              <div class="suggestion">
+                <div class="card-suggestion">
+                  <div><img src="./images/Rectangle 16.png" alt="motivation" width="150px" height="150px" ></div>
+                  <h3>Weekly Motivatio...</h3>
+                  <p>Ben Ina Scott</p>
+                </div>
+              </div>
+
+              <div class="suggestion">
+                <div class="card-suggestion">
+                  <div><img src="./images/Rectangle 16 (1).png" alt="motivation" width="150px" height="150px" ></div>
+                  <h3>MEDITATION SELF</h3>
+                  <p>Ibn Hussain Aleen</p>
+                </div>
+              </div>
+
+              <div class="suggestion">
+                <div class="card-suggestion">
+                  <div><img src="./images/Rectangle 16 (2).png" alt="motivation" width="150px" height="150px" ></div>
+                  <h3>Words beyond act...</h3>
+                  <p>Samuel Scott</p>
+                </div>
+              </div>
+              <div class="suggestion">
+                <div class="card-suggestion">
+                  <div><img src="./images/Rectangle 16 (3).png" alt="motivation" width="150px" height="150px" ></div>
+                  <h3>The Alexa Show</h3>
+                  <p>Adriana Tom</p>
+                </div>
+              </div>
+              
+            </section>
+            <!-- second section -->
+            <section id="show-section-2">
+
+              <div class="suggestion-2">
+                <div class="card-suggestion-2">
+                  <div><img src="./images/Rectangle 16 (3).png" alt="motivation" width="150px" height="150px" ></div>
+                  
+                </div>
+              </div>
+
+              <div class="suggestion-2">
+                <div class="card-suggestion-2">
+                  <div><img src="./images/Rectangle 16 (3).png" alt="motivation" width="150px" height="150px" ></div>
+                  
+                </div>
+              </div>
+
+              <div class="suggestion-2">
+                <div class="card-suggestion-2">
+                  <div><img src="./images/Rectangle 16 (3).png" alt="motivation" width="150px" height="150px" ></div>
+                  
+                </div>
+              </div>
+              <div class="suggestion-2">
+                <div class="card-suggestion-2">
+                  <div><img src="./images/Rectangle 16 (3).png" alt="motivation" width="150px" height="150px" ></div>
+                 
+                </div>
+              </div>
+              
+            </section>
+
+
+            </section>
+        <footer>
+            <div id="play-list-footer">
+              <!-- col-1 -->
+              <div id="col-1">
+               <div> <img src="./images/Rectangle 20.png" alt="music-img" height="60px"></div>
+                <div><span>Dreaming On</span><br><span>NEFFEX</span></div>
+                <div><img src="./images/bx_bxs-heart.svg" alt="heart"></div>
+              </div>
+             
+              <!-- col-2 -->
+              <div id="col-2">
+                <div class="icons">
+                  <div><img src="./images/raphael_shuffle.svg" alt="shuffle"></div>
+                  <div> <img src="./images/bx_bx-skip-previous.svg" alt="shuffle"></div>
+                  <div> <img src="./images/gridicons_play.svg" alt="shuffle"></div>
+                  <div> <img src="./images/bx_bx-skip-previous (1).svg" alt="shuffle"></div>
+                  <div> <img src="./images/Group (1).svg" alt="shuffle"></div>
+                </div>
+                 
+                <div id="line"></div>
+              </div>
+               <!-- col-3 -->
+               <div id="col-3" class="icons">
+                <div><img src="./images/ph_microphone-stage.svg" alt="microphone"></div>
+                <div><img src="./images/carbon_query-queue.svg" alt="carbon"></div>
+                <div><img src="./images/carbon_laptop.svg" alt="carbon-laptop"></div>
+                <div><img src="./images/Group (2).svg" alt=""></div>
+                <div id="line-2"></div>
+                <div><img src="./images/Group (3).svg" alt=""></div>
+               </div>
+            </div>
+            <div id="footer">
+              <div><img src="./images/Group (4).svg" alt="microphone" height="12px">Listening on ASUS-ROG-G531GT</div>
+              
+            </div>
+        </footer>
+      
+        <!-- the div below is a grid-container which end here -->
+    </div>
 </body>
 </html>

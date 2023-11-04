@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    margin: 20px 134px 15px 35px;
+}
+
+.grid-container{
+    display: grid;
+    width:100vw;
+    height:100vh;
+    grid-template-columns:  0.7fr 2.3fr ;
+    grid-template-rows: 88% 12% ;
+}
+.section-1{
+    background: #000;
+}
+
+.section-1 > div,
+.list-to-do>div{ 
+display: flex;
+}
+
+.section-1 > div:not(:first-child) {
+    width: 300px;
+    flex-shrink: 0;
+    margin: auto;
+    padding: 8px;
+}
+.section-1 > div:not(:first-child):hover {
+    border-radius: 6px;
+    background: #282828;
+    width: 300px;
+    margin: auto;
+    padding: 8px;
+}
+
+
+.section-1>div>a,
+.list-to-do> div >a,
+.a {
+color: rgb(234, 238, 242);
+text-align: center;
+align-items: center;
+display: flex;
+padding-left: 22px;
+ color: #FFF;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.14px;
+text-decoration: none;
+}
+
+ 
+#list-to{
+    margin-top: 15px ;
+}
+#create-list{
+    background-color: white;
+}
+.box{
+   
+width: 30.057px;
+height: 30.057px;
+flex-shrink: 0;
+    
+  
+}
+#heart-icon{
+text-align: center;
+border-radius: 1px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+#episode-list{
+    border-radius: 5px;
+    background: #004638;
+    text-align: center; 
+}
+#installed-app{
+    margin-top: 15px;
+}
+/*section-2 started*/
+.section-2 {
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+
+}
+.btn-lr{
+ width: 40px;
+height: 40px;
+border-radius: 50px;
+background-color: #131313;
+border: none;
+margin: 20px 5px;
+}
+#btn-section{
+    display: flex;
+    justify-content: space-between;
+}
+#angle{
+    display: flex;
+width: 147px;
+height: 41px;
+border-radius: 33px;
+background: #0A0A0A;
+align-items: center;
+margin: 20px 40px 10px 10px;
+}
+#angle>p{
+color: #FFF;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding:0px 15px 0px ;
+
+}
+#morning{
+    margin: 0px 0px 10px 20px;
+}
+#morning>h2{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.14px;
+}
+#heart{
+width: 70px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 4px 0px 0px 4px;
+background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+display: flex ;
+justify-content: center;
+align-items: center;
+}
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr); /* Three columns with equal width */
+    grid-template-rows: 72px 72px;
+    gap: 10px; 
+  
+}
+
+.playlist{
+    border-radius: 4px;
+   background: #303030;
+   color:white;
+   width: 250px;
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+}
+.playlist>p{
+    padding-left: 15px;
+}
+.img-size>img{
+    width: 70px;
+    height: 72px;  
+    flex-shrink: 0;
+border-radius: 4px 0px 0px 4px;
+display: flex ;
+justify-content: center;
+align-items: center;
+}
+ /*Shows you might like*/
+ #show-reference{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    margin: 20px 0px 5px 20px;
+ }
+ #show-reference>div>h3{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.16px;
+
+ }
+ #show-reference>p{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.68px;
+margin-right: 20px;
+}
+#show-section{
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr); /* Three columns with equal width */
+    grid-template-rows: 75px 75px;
+    gap: 40px; 
+    margin-left: 20px;
+    margin-bottom: 21px;
+}
+.suggestion{
+width: 170px;
+height: 200px;
+flex-shrink: 0;
+background: #181818;
+ }
+
+.card-suggestion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.card-suggestion>div>img{
+    margin-top: 10px;
+}
+.card-suggestion>h3{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.42px;
+}
+.card-suggestion>p{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.15px;
+}
+#show-section-2{
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr); /* Three columns with equal width */
+    grid-template-rows: 75px ;
+    gap: 40px; 
+    margin-left: 20px;
+    
+}
+.suggestion-2{
+    width: 170px;
+    height: 110px;
+    flex-shrink: 0;
+    background: #181818;
+     }
+
+ .card-suggestion-2>div>img{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+footer{
+    
+   display: grid;
+   grid-template-rows: 70% 30%;
+  grid-column: 1 / 3;
+}
+#play-list-footer{
+    background: #181818;
+  display: flex;
+  justify-content: space-between;
+}
+#col-1{
+    display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap:10px;
+ 
+}
+#col-1>div>span:nth-child(1){
+    color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.9px;
+margin-bottom: 5px;
+}
+#col-1>div>span{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.75px;
+
+}
+#col-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+#line{
+    border-top: 2px solid #C4C4C4;
+    height: 112px;
+    width:350px;
+}
+#line-2{
+    border-bottom: 2px solid #C4C4C4;
+    
+}
+
+#footer{
+    background: #1ED760;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+#footer>div{
+    margin-right: 30px;
+}
